@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.button{
+	background-color: rgb(115, 201, 255);
+	color:white;
+	border: none;
+	padding: 10px 35px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: 0.1s;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: rgb(80, 188, 255);
+	transition: 0.1s;
+}
+.button:focus{
+	outline: none;
+}
+#buttons{
+	float: left;
+	background-color: whitesmoke;
+	height: 120vh;
+	padding: 10px;
+}
+/* buttons end*/
+.urunler{
+	background-color: white;
+	box-shadow:0px 0px 5px 1px silver;
+	border-radius:15px;
+	padding: 5px;
+	width: 40%;
+	font-size:30px;
+	font-family:Helvetica;
+	text-align:center;
+	margin: 28px 25px;
+	float:left;
+}
+#urunSayfaId{
+	height: 70px;
+	margin: 0px;
+    font-size: 35pt;
+    border-bottom: 1px solid #ddd;
+    border-radius: 25px;
+    font-family: helvetica;
+    text-align: center;
+    color: #fd7e14;
+}
+/*product card end*/
+.urunEkle{
+	background-color: white;
+	box-shadow:0px 0px 5px 1px silver;
+	border-radius:15px;
+	padding: 15px 5px;
+	width:30%;
+	font-size:30px;
+	font-family:Helvetica;
+	text-align:center;
+	margin: 28px 20px;
+	float:left;
+}
+.urunEkle input{
+	display: block;
+	margin:10px auto;
+	padding: 10px;
+	width: 60%;
+	border-radius: 10px;
+	border:1px solid silver;
+}
+/*add product card end*/
